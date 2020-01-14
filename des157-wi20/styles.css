@@ -1,0 +1,54 @@
+
+body {
+padding: 5%;
+}
+
+main, header, footer {
+    width: 1000px;
+    margin: auto;
+}
+
+#mySketch {
+height: 250px;
+width: 800px;
+background-color: #cccccc;
+margin: auto;
+
+}
+
+.column {
+    flex: 1;
+    height: 300px;
+    padding: 5%;
+    background-color: #cccccc;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    background-color: #cccccc;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+ul li {
+    font-family: 'PT Serif', serif;
+    line-height: 1.5em;
+    font-size: 11pt;
+}
+
+
