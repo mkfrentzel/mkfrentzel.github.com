@@ -1,0 +1,123 @@
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    flex: 1;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #ffffff;
+}
+
+li:last-of-type {
+    border-style: none;
+}
+
+
+ }
+
+
+
+body {
+
+    padding: 0% 10% 5%;
+    background-color: #7297BA;  
+    font-size: .9em;
+    
+}
+
+main {
+    margin:auto;
+    background-color: #F2F6FF;
+    padding: 5% 5%;
+    
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    background-color: #eb5f4a;
+    text-align: center;
+    
+}
+
+#menu li a {
+    line-height: 2em;
+    display: block;
+    color: #F2F6FF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+
+
+}
+
+
+#menu a:hover {
+    background-color:  #943021;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+h1, h2, footer {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, footer {
+    color: #F2F6FF;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+h2 {
+    color: #031A30;
+   
+}
+
+p {
+    font-family: 'Gelasio';
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.images {
+
+    background-image: url("images/plant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images h2, .images p {
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 3%;
+}
+
+footer,header {
+    background: rgb(114,151,186);
+    background: linear-gradient(0deg,rgba(3,26,48,.75) 0%, rgba(242,246,255,0.3) 100%);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+
+
+

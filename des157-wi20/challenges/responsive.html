@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML and CSS Refresher Challenges</title>
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gelasio:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' href='styles.css'/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    </head>
+    <body>
+        <header><h1>HTML and CSS Refresher Challenges</h1></header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">HTML Basics</a></li>
+                <li><a href="cssbasics.html">CSS Basics</a></li>
+                <li><a href="layout.html">Page Layout</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+            </ul>
+        </nav>
+        <main>
+
+        <article>
+            <h2>About Media Queries</h2>
+            <p>Media Queries are elements that allow for responsive design across different screens, devices, and for different users. For example, you can use a media query to specify the design for a page of a certain size so that it might adjust to mobile or desktop viewing based on how large the window is being displayed. This gives the viewer the optimal view of your projects and will display your layout most accurately to how you design it no matter what the size.</p>
+            <p>Generally, min-width media queries are used for designing mobile content and small screens first compared to max-width elements that typically design for larger screens such as desktop. However, they can be combined in your responsive design in order to get very specific layouts for mid sized screens. In most cases, code for smaller screens tends to be more simple than code for larger views which is why design usually starts with mobile and then scales up to desktop. It helps to keep the code as clean as possible and will generally be easier to adapt and override when making the content adjustments.</p> 
+        </article>
+
+        <article>
+            <h2>Relative Units</h2>
+            <p>Relative units are design elements that also help to create a responsive web layout. They allow the sizing to adjust not based purely on pixel size but on percentages or relative scaling. Some examples of relative unites include em, percentages, vw, and vh. Em for example, refers to the relative font size of an element, so 1.5em would mean that the size is 1.5 times the size of the font you're currently using. Percentages are relative to the parent element and can be applied to many different things that then will scale down according to the element it's contained within. The vh and vm units refer to the sizing relative to the height and width of the viewports, which is the viewer's visible area of the web page.</p>
+        </article>
+
+        <article>
+            <h2>Meta Viewport Tag</h2>
+            <p>The meta viewport tag simply allows the browser to receive instructions on how to scale up and down the page. It is another element to help the responsive layout of a page. It is particularly useful when going to mobile, so the viewer can see all the content within the screen and not have to zoom in and out or scroll endlessly in order to find the content their looking for.</p>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Page by Megan Frentzel</p>
+        <p>HTML checked by Olivia Kotlarek and Aisleen Santos</p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
+    </footer>
+    
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML and CSS Refresher Challenges</title>
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gelasio:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' href='styles.css'/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <header><h1>HTML and CSS Refresher Challenges</h1></header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">HTML Basics</a></li>
+                <li><a href="cssbasics.html">CSS Basics</a></li>
+                <li><a href="layout.html">Page Layout</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+            </ul>
+        </nav>
+        <main>
+
+        <article>
+            <h2>Structure, Phrasing and Display</h2>
+            <p>Block level elements are elements on the page that each begin on a new line and take up the full width of it's parent element. Inline elements are slightly different in that they don't have to start on a new line, they can start anywhere within the line and it's width only reaches as far as the tags define it. For example, something in strong tags will only be bolded when the tags open and close - it does not effect the entire line.</p>
+            <p>There are multiple displays for these elements and they can be defined as either block, inline, inline-block, or none. The block element defines the property of that entire line, while the in-line elements effect only that section of the block.</p>
+            
+        </article>
+
+        <article>
+            <h2>Box Model</h2>
+            <p>The Box Model is a layout style that essentially consists of a box wrapping around all the html elements within the page. It includes the border, margins, padding that surround the content and allows you to define each element that exists within the box. However, if you were to define the height or width of the box by simply using those declarations, it would only define the sizing of the content - not the actual box itself (i.e. the content is 600 pixels and the border is 5 pixels, the total width will actually be 610 pixels despite you specifying the width). The box-sizing property allows you to include more elements other than just the content into the total calculations. Meaning when you define the box-sizing property to be border-box and the width to be 600 pixels, then the entire box content and borders included will total 600 pixels.</p>
+
+            <img src="images/box-model.png" width="600" height="600" alt="box-model example">
+            
+        </article>
+
+        <article class="images">
+            <h2>Background Images</h2>
+            <p>In general, it is better to use the img tag in your web pages when the images are necessary to the content. This way you can add an alt name and it can be indexed by search engines and accessible to all. Background images within CSS are better suited for content that is strictly for design or style purposes. Background images might also load slower, whereas an img tag would allow the rest of the content to load even before the image has finished so the user can still begin to use the web page and view it's content.</p>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Page by Megan Frentzel</p>
+        <p>HTML checked by Olivia Kotlarek and Aisleen Santos</p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
+    </footer>
+    
+    </body>
+</html>
