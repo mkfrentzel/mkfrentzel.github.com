@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function Experimentation</title>
+</head>
+<body>
+
+    <h1>JS Function Experimentation</h1>
+    <h2>Megan Frentzel</h2>
+
+
+<script>
+
+var myKittens=prompt("How many kittens do you want?", "");
+var kittenName=prompt("What color kitten do you want?", "");
+var kittenColor=["black", "gray", "white", "calico", "orange"];
+var dog=["beagle", "dalmation", "great dane", "pitbull"];
+
+if(parseInt(myKittens)) {
+    console.log(`you want ${myKittens} kittens, that is an integer.`);
+}
+
+else {
+    console.log("you don't have an integer");
+}
+
+
+function randomColor (min,max) {
+
+return Math.floor((max-min+1) * Math.random()) + min;
+
+}
+
+randomColor(0,4);
+
+function colorCat (color) {
+    console.log(`we only have one ${color[randomColor(0,color.length-1)]} kitten available.`);
+
+    for (var i=0; i<dog.length; i++) {
+
+        console.log(`we also have one ${dog} available.`);
+
+    }
+
+}
+
+colorCat (kittenColor);
+
+</script>
+
+
+    
+</body>
+</html>
