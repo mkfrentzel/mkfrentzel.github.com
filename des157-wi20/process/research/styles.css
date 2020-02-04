@@ -12,15 +12,15 @@ main, header, footer {
 
 .column {
     flex: 1;
-    height: 400px;
+    height: 1000px;
     padding: 5%;
-    background-color: #b2dfec;
+    background-color: #ff9a97;
     margin: 10px;
 }
 
 img {
 
-    height: 300px;
+    height: 250px;
     width: auto;
 }
 
@@ -31,7 +31,6 @@ img {
 
 #backPortal {
     list-style-type: none;
-    background-color: #dcf7ff;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex: 1;
@@ -49,19 +48,23 @@ img {
 
 footer {
     display: flex;
-    background-color: #dcf7ff;
+    background-color: #ff9a97;
     margin: auto;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     font-size: 16pt;
+}
+
+h3 {
+    
 }
 
 ul li {
