@@ -13,7 +13,7 @@ main, header, footer {
 
 .column {
     flex: 1;
-    height: 1000px;
+    height: 1300px;
     padding: 5%;
     background-color: floralwhite;
     margin: 10px;
