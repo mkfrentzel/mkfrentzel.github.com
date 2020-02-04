@@ -51,14 +51,14 @@
 
 		answer.removeAttribute("invisible");
 
-		//I used the parseInt function here in order to 
+		//in this if statement I use the value pulled from above and multiply it by the kilometer exchange rate. Then I use the answer.innerHTML property to then change the text to display the unique mile/kilometer conversion. The else statement catches anything that is not a number and asks the user to give the number.
 
 		 if (parseInt(mileCount)) {
 			var converted = mileCount * 1.609;
-			answer.innerHTML = `<h2>${mileCount} miles converts to ${converted} kilometers</h2>`;
+			answer.innerHTML = `<h2>${mileCount} miles converts to ${converted} kilometers.</h2>`;
 			
 		 } else {
-			 answer.innerHTML = `<h2>Please enter a number</h2>`;
+			 answer.innerHTML = `<h2>Please enter a number!</h2>`;
 		 }
 	});
 
