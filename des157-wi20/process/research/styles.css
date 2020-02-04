@@ -25,6 +25,11 @@ img {
     width: auto;
 }
 
+#garden img {
+    height: 350px;
+    width: auto;
+}
+
 .row {
     display: flex;
 }
