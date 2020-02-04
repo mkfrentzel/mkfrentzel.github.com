@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Distance Converter</title>
+
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<h1>Miles to Kilometers Converter</h1>
+    
+    <div class="container top">
+    	<p>Type in a number of miles and click the button to convert the distance to kilometers.</p>
+        
+        <form method="post" action="somephpfile.php" id="convert">
+        
+        	<input type="text" name="distance" id="distance" placeholder="distance">
+            <input type="submit" name="convertdist" value="Convert Distance">
+        
+        </form>
+    </div>
+    <div class="container bottom" id="answer">
+    	<h2 class="invisible">Answer goes here</h2>
+    </div>
+    
+	<p id="directions">Press the "K" key to switch to kilometer converstion, press the "M" key to switch to mile conversion</p>
+	
+	<script>
+
+		var form = document.querySelector("form");
+		var text = document.querySelector("p");
+		var heading = document.querySelector("h1");
+		
+		form.addEventListener("submit", conversionM);
+		form.addEventListener("submit", conversionK);
+		
+		document.addEventListener("keydown", handleKeyPress);
+		
+		// this event/if - else-if statementfigures out which key the person presses and then uses that information to then display the correct conversions.
+		function handleKeyPress(event) {
+			if (event.key == "k") {
+				heading.innerHTML = "Kilometers to Miles Converter";
+				text.innerHTML = "Type in a number and click to convert the distance from kilometers to miles!";
+				form.removeEventListener("submit", conversionK);
+				form.addEventListener("submit", conversionK);
+			} else if (event.key == "m") {
+				heading.innerHTML = "Miles to Kilometers Converter";
+				text.innerHTML = "Type in a number and click to convert the distance from miles to kilometers!";
+				form.removeEventListener("submit", conversionM);
+				form.addEventListener("submit", conversionM);
+			}
+		}
+		
+		//this function converts miles to kilometers using the same process from the basic converter
+		function conversionM() {
+			event.preventDefault();
+		
+			var mileCount = document.getElementById("distance").value;
+		
+			answer.removeAttribute("invisible");
+		
+			if (parseInt(mileCount)){
+				var converted = mileCount * 1.609;
+				answer.innerHTML = `<h2>${mileCount} miles converts to ${converted} kilometers.</h2>`;
+			} else {
+				answer.innerHTML = `<h2>Please enter a number!</h2>`;
+			}
+		}
+		
+		
+		//this function is supposed to convert kilomenters to miles like the one above, but for some reason it displays the same conversion rate. I have yet to figure out why it won't change, but my guess is that it has soemthing to do with my naming functions.
+		
+		function conversionK() {
+			event.preventDefault();
+		
+			var kiloCount = document.getElementById("distance").value;
+		
+			answer.removeAttribute("invisible");
+		
+			if (parseInt(kiloCount)){
+				var converted = kiloCount * 0.621;
+				answer.innerHTML = `<h2>${kiloCount} kilometers converts to ${converted} miles.</h2>`;
+			} else {
+				answer.innerHTML = `<h2>Please enter a number!</h2>`;
+			}
+		}
+		
+		</script>
+
+</body>
+</html>
