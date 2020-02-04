@@ -78,8 +78,8 @@
 		}
 		
 		
-		//this function is supposed to convert kilomenters to miles like the one above, but for some reason it displays the same conversion rate. I have yet to figure out why it won't change, but my guess is that it has soemthing to do with my naming functions.
-		
+		//this function does the conversion from kilomenters to miles like the one above, simply using different funciton/variable names.
+
 		function conversionK() {
 			event.preventDefault();
 		
@@ -88,8 +88,8 @@
 			answer.removeAttribute("invisible");
 		
 			if (parseInt(kiloCount)){
-				var converted = kiloCount * 0.621;
-				answer.innerHTML = `<h2>${kiloCount} kilometers converts to ${converted} miles.</h2>`;
+				var convertedKilo = kiloCount * 0.621;
+				answer.innerHTML = `<h2>${kiloCount} kilometers converts to ${convertedKilo} miles.</h2>`;
 			} else {
 				answer.innerHTML = `<h2>Please enter a number!</h2>`;
 			}
