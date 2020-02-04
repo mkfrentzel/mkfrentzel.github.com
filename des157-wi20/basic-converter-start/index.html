@@ -33,10 +33,40 @@
     	<h2 class="invisible">Answer goes here</h2>
 	</div>
 	
+
 	<script>
-		function LengthConverter(valNum) {
-		  document.getElementById("outputKilometers").innerHTML=valNum/0.62137;
-		}
-	</script>
+
+	//I realized that the action above called "somephpfile.php" was causing issues on the page load which then helped me to realize that the defualt event needed to be prevented. So I added an eventListener for when the document was submitted to prevent the default. 
+	
+	var myForm = document.querySelector("form");
+
+	myForm.addEventListener("submit", function(event){
+		event.preventDefault();
+
+		//I then added the variable "MileCount" in order to capture the specified value submitted within the form. 
+
+		var mileCount = document.getElementById("distance").value;
+
+		//I removed the invisible attribute in order to display the inputted information here (becuase it was attached to the id invisible above).
+
+		answer.removeAttribute("invisible");
+
+		//I used the parseInt function here in order to 
+
+		 if (parseInt(mileCount)) {
+			var converted = mileCount * 1.609;
+			answer.innerHTML = `<h2>${mileCount} miles converts to ${converted} kilometers</h2>`;
+			
+		 } else {
+			 answer.innerHTML = `<h2>Please enter a number</h2>`;
+		 }
+	});
+
+
+</script>
+
+
+
+
 </body>
 </html>

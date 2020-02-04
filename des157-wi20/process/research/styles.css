@@ -1,6 +1,7 @@
 
 body {
 padding: 5%;
+background-color: #ff9a97;
 }
 
 main, header, footer {
@@ -14,7 +15,7 @@ main, header, footer {
     flex: 1;
     height: 1000px;
     padding: 5%;
-    background-color: #ff9a97;
+    background-color: floralwhite;
     margin: 10px;
 }
 
@@ -34,9 +35,7 @@ img {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex: 1;
-    border-style: solid;
-    border-width: 0px 2px 0px 0px;
-    border-color: #ffffff;
+
 }
 
     
@@ -57,15 +56,18 @@ footer {
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
+    color: #7c142e;
 }
 
 h2 {
     font-size: 16pt;
 }
 
-h3 {
-    
+p {
+    color: #7c142e;
 }
+
+
 
 ul li {
     font-family: 'PT Serif', serif;
