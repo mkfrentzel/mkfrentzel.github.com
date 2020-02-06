@@ -1,0 +1,36 @@
+form, label {
+
+    display:block;
+    line-height: 2em;
+}
+
+form {
+
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+
+    font-size: 24px;
+    font-family: 'Carter One', cursive;
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    font-size: 72px;
+    color: #e4865a;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+
+}
+
+body {
+
+background-color: #458da3;
+color: #ffffff;
+
+}
+
