@@ -1,20 +1,27 @@
-form, label {
-
-    display:block;
-    line-height: 2em;
+.header {
+    display: block;
+    margin: auto;
 }
 
-form {
-
+input {
+    display: block;
+    padding: 5px;
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
 
-label {
-
-    font-size: 24px;
-    font-family: 'Carter One', cursive;
+.invisible {
+    display: none;
 }
+
+.visible {
+    display: block;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+}
+
+
 
 h1 {
     font-family: 'Carter One', cursive;
