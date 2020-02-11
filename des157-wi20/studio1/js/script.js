@@ -2,9 +2,6 @@
 
   "use strict"  
 
-  let fadeIn = $( "#fadeInButton" );
-  $("#fadeInButton").fadeIn();
-  
     
 
 // listen for the submission of the form
