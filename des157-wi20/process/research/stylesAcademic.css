@@ -1,0 +1,46 @@
+
+body {
+padding: 5%;
+}
+
+main, header, footer {
+    width: 800px;
+    margin: auto;
+}
+
+div {
+    display: block;
+    width: 800px;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+ul li {
+
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+
+
+footer {
+    display: block;
+    background-color: #cccccc;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+
+

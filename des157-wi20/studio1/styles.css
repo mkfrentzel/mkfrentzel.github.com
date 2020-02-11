@@ -1,14 +1,35 @@
-.header {
+body {
     display: block;
+    width: 800px;
     margin: auto;
+    justify-content: center;
+    background-color: #458da3;
+    color: #ffffff;
 }
+
 
 input {
     display: block;
     padding: 5px;
-    margin: auto;
     font-family: 'Lato', sans-serif;
+    width: 300px;
+    margin: auto;
 }
+
+img {
+
+    width: 800px;
+    margin:auto;
+}
+
+#button {
+    width: 200px;
+    color: #458da3;
+    background-color: #F2B13D;
+    border-style: hidden;
+    align-content: center;
+}
+
 
 .invisible {
     display: none;
@@ -16,28 +37,17 @@ input {
 
 .visible {
     display: block;
-    width: 500px;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #F2B13D;
 }
 
-
-
-h1 {
-    font-family: 'Carter One', cursive;
-    font-size: 72px;
-    color: #e4865a;
-}
 
 h2 {
     font-family: 'Lato', sans-serif;
-
-}
-
-body {
-
-background-color: #458da3;
-color: #ffffff;
+    text-align: center;
 
 }
 
