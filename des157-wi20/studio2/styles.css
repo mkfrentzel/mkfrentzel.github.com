@@ -1,0 +1,48 @@
+body {
+    background-color: plum;
+    width: 100%;
+    margin: auto;
+}
+
+img {
+
+    width:75%;
+    margin: auto;
+
+}
+
+div {
+display: flex;
+width: 100%;
+margin: auto;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+footer a {
+    padding: 2em;
+    text-decoration: none;
+    color: white;
+}

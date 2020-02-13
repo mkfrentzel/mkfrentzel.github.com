@@ -29,11 +29,18 @@ margin: auto;
 
 footer {
     display: flex;
-    background-color: #cccccc;
-    margin: auto;
-    padding: 20px;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
+    background: #cccccc;
     
+}
+
+footer a {
+    padding: 2em;
+    text-decoration: none;
+    color: white;
 }
 
 h1, h2 {
