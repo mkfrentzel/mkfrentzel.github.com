@@ -18,10 +18,26 @@ main, header, footer {
     margin: 10px;
 }
 
+
+#final {
+    flex: 1;
+    height: 700px;
+    padding: 5%;
+    background-color: #b2dfec;
+    margin: 10px;
+}
+
+
+
 img {
 
     height: 300px;
     width: auto;
+}
+
+#finalSketch {
+    width: auto;
+    height: 600px;
 }
 
 .row {
