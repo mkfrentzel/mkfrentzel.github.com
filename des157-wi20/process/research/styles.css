@@ -1,7 +1,7 @@
 
 body {
 padding: 5%;
-background-color: #ff9a97;
+background-color: #bdb9d6;
 }
 
 main, header, footer {
@@ -60,7 +60,7 @@ img {
 
 footer {
     display: flex;
-    background-color: #ff9a97;
+    background-color: #bdb9d6;
     margin: auto;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
@@ -69,7 +69,7 @@ footer {
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
-    color: #7c142e;
+    color: #1f1750;
 }
 
 h2 {
@@ -77,7 +77,7 @@ h2 {
 }
 
 p {
-    color: #7c142e;
+    color: #1f1750;
 }
 
 
