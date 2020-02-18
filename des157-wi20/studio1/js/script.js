@@ -45,16 +45,6 @@ function makeMadLib(theWords){
 
 }
 
-/*******************************
-TO DO:
-1. Add interesting graphics/fun madlib content/theme
-2. Change styling (add fonts from google fonts, colors, etc)
-3. Change the way the madlib appears (add a css animation?)
-4. Adjust JS to suit your madlib
-5. Refactor JS (put in external script file, put in enclosure, 
-change var to const or let, etc.)
-6. Have fun!
-*********************************/
 
 
 
