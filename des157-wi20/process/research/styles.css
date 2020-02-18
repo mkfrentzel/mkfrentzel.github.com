@@ -19,6 +19,14 @@ main, header, footer {
     margin: 10px;
 }
 
+.column, #personaOne, #personaTwo, #personaThree {
+    flex: 1;
+    height: auto;
+    padding: 5%;
+    background-color: floralwhite;
+    margin: 10px;
+}
+
 img {
 
     height: 250px;
