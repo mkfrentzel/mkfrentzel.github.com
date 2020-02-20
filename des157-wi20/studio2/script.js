@@ -16,7 +16,6 @@ function openBag(){
     container.setAttribute("class", "visible");
 }
 
-
 //was trying to get each element to close on click with this, but could not figure it out quite yet. I'll keep working on this in the future and for my final.
 
 
