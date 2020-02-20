@@ -1,46 +1,44 @@
-(function openBag() {
+(function () {
 
 "use strict"
 
-const tote=document.getElementById("water");
 
-if(tote.style.display==="none") {
-    tote.style.display="inline-block"; }
-    else {
-        tote.style.display="none";
-    }
-
-
-
-
-
-
-/* const openBag = document.querySelector('tote');
-
-openBag.onclick=function() {
-    openBag=document.createElement('img');
+document.getElementById("tote").addEventListener("click", openBag);
+function openBag(){
+    const waterBottle = document.getElementById('water');
+    const keyChain = document.getElementById('keys');
+    const smellGood = document.getElementById('perfume');
+    const container = document.getElementById('container');
+            
+    waterBottle.setAttribute("class", "visible");
+    keyChain.setAttribute("class", "visible");
+    smellGood.setAttribute("class", "visible");
+    container.setAttribute("class", "visible");
 }
 
 
-document.getElementById("tote").addEventListener("click", function(event){
-    // prevent the default behavior
-    event.preventDefault();
-    inMyTote(items);
-
-    const items = [];
-
-});
+//was trying to get each element to close on click with this, but could not figure it out quite yet. I'll keep working on this in the future and for my final.
 
 
-function inMyTote(theWords){
-    
+/* document.getElementById("closeWater").addEventListener("click", closeWater);
+function closeWater(){
+    const waterBottle = document.getElementById('water');
+    waterBottle.setAttribute("class", "invisible");
+}
 
-    //Get the madlib container
-    const toteContainer = document.getElementById('water', 'keys', 'perfume');
+document.getElementById("closeKeys").addEventListener("click", closeKeys);
+function closeKeys(){
+    const keyChain = document.getElementById('keys');
+    keyChain.setAttribute("class", "invisible");
+}
 
-    //change the class on the madlib container so you can see it.
-    toteContainer.setAttribute("class", "visible");
+document.getElementById("closePerfume").addEventListener("submit", closePerfume);
+function closePerfume(){
+    const smellBad = document.getElementById('perfume');
+    smellBad.setAttribute("class", "invisible");
+
 } */
+    
 
 
 
