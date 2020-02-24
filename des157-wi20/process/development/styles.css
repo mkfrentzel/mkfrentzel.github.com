@@ -24,6 +24,19 @@ main, header, footer {
     height: 550px; 
 }
 
+#comp1 img, #comp2 img {
+    flex: 1;
+    width: 400px;
+    height:auto;
+}
+
+#comp1, #comp2 {
+    flex: 1;
+    height:1250px;
+}
+
+
+
 
 
 #final {
