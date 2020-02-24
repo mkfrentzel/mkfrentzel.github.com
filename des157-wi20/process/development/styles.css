@@ -19,6 +19,13 @@ main, header, footer {
 }
 
 
+#gif1, #gif2, #gif3 {
+    color: #256172; 
+    height: 550px; 
+}
+
+
+
 #final {
     flex: 1;
     height: 700px;
@@ -65,8 +72,9 @@ img {
 
 footer {
     display: flex;
-    background-color: #dcf7ff;
     margin: auto;
+    justify-content: center;
+    background-color: #dcf7ff;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     
