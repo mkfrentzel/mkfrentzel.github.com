@@ -111,8 +111,8 @@
 	}
 	
 	function showCurrentScore(){
-		score.innerHTML = `<p>The score is currently <strong>${gameData.players[0]}
-		${gameData.score[0]}</strong> and <strong>${gameData.players[1]} 
+		score.innerHTML = `<p>The score is currently:<br> <strong>${gameData.players[0]}: 
+		${gameData.score[0]}</strong><br><strong>${gameData.players[1]}: 
 		${gameData.score[1]}</p>`;
 	}
 
