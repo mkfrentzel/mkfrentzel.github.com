@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio 4</title>
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <div id="box0">
+        <h1>Exploring AOS Scroll Library</h1>
+        <p>For this project I wanted to explore the AOS scroll effect library because I plan to use a lot of scrolling in my final project. Scroll down to see some of my favorite effects.
+        </p>
+    </div>
+
+
+    <div id="box1" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <p>Fade Up Example. This particular fade happens when the div is in the top-center of the page.</p>
+    </div>
+
+
+    <div id="box2" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <p>Fade Right Example. This example has an ease added to help transition the fade. </p>
+    </div>
+
+
+    <div id="box3" data-aos="zoom-out-down" data-aos-anchor-placement="top-center">
+    <p>Zoom Out Down Example. This example zooms out and down, and I added the placement so it occurs when the div is at the top-center of the page.</p>   
+    </div>
+
+
+    <div id="box4" data-aos="flip-down" data-aos-anchor-placement="bottom">
+    <p>Flip Down Example. This flips onto the page when the div is at the bottom of the page.</p>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

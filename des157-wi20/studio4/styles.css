@@ -1,0 +1,39 @@
+body {
+    background-color: aliceblue;
+    padding: 20px;
+    width: auto;
+    margin: auto;
+    line-height: 1.4em;
+    color: azure;
+}
+
+div {
+    display: block;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: slategray;
+
+}
+
+#box0 {
+    height: 800px;
+    width: 750px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+#box0 p, #box0 h1 {
+    color: slategray;
+    padding:0;
+
+}
+
+p {
+    color: aliceblue;
+    padding: 25px;
+    align-content: center;
+    justify-content: center;
+}
+
