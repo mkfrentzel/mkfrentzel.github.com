@@ -9,17 +9,18 @@ body {
 
 div {
     display: block;
-    width: 800px;
+    width: 75%;
     height: 200px;
     margin: auto;
     margin-bottom: 50px;
     background-color: slategray;
+    max-width: 700px;
 
 }
 
 #box0 {
     height: 800px;
-    width: 750px;
+    width: 75%;
     background-color: rgb(255, 255, 255);
     padding: 25px;
 }
@@ -27,6 +28,7 @@ div {
 #box0 p, #box0 h1 {
     color: slategray;
     padding:0;
+    line-height: 1.3em;
 
 }
 
