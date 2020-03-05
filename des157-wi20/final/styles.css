@@ -1,0 +1,59 @@
+body {
+    background-color: #00000010;
+    padding: 20px;
+    width: auto;
+    margin: auto;
+    line-height: 1.4em;
+    color: #000000;
+}
+
+
+h1, h3 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    letter-spacing: .2em;  
+}
+
+
+
+div {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 800px;
+
+}
+
+#dailyScroll {
+    background-color: white;
+    padding: 5%;
+    height: 500px;
+    overflow: auto;
+}
+
+#dailyScroll h3 {
+    letter-spacing: .05em;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    height: auto;
+    padding: 5%;
+    background-color: #cccccc;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+
+.line {
+    display: flex;
+    width: 75%;
+    height: 50px;
+    border-bottom: 3px;
+    border-bottom-color: #000000;
+    position: aboslute;
+}
+
