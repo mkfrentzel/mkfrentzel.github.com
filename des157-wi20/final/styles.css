@@ -5,14 +5,19 @@ body {
     margin: auto;
     line-height: 1.4em;
     color: #000000;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
 h1, h3 {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     letter-spacing: .2em;  
+    text-align: center;
 }
 
+h1 {
+    font-size: 2.5em;
+}
 
 
 div {
@@ -42,6 +47,35 @@ div {
     background-color: #cccccc;
     margin: 10px;
 }
+
+
+.chartColumn {
+    display: flex;
+    flex: 1;
+    height: auto;
+    margin: 10px;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    width: auto;
+    margin: auto;
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .button:hover {opacity: .85}
+
+
 
 .row {
     display: flex;

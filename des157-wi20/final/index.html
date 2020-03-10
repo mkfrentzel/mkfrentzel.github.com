@@ -8,6 +8,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -22,37 +23,44 @@
 
 
     <div id="timeline">
-        <div class="line">
+        <!-- <div class="line">
             <img src="images/line.png" alt="timeline">
-        </div>
+        </div> -->
     </div>
 
-    <button></button>
+    <!-- <button type="button" class="button">Skip to Quiz</button> -->
 
     
     <div id="dailyScroll">
         <h1>THE DAILY SCROLL</h1>
-        <h3>How much do you really know about fake news? Scroll through to get educated.</h3>
+        <h4>How much do you really know about fake news? Scroll through to get educated.</h4>
         
 
         <div class="row">
             
-            <div class="column">
+            <div class="chartColumn" id="donutChart" style="flex-grow: 3">
+                <canvas id="myDonutChart" width="auto" height="auto"></canvas>
             </div>
 
             <div class="column">
             </div>
-           
+        
+    
+        </div>
+
+        <div class="row">
+        
             <div class="column">
             </div>
-    
+
         </div>
 
 
         <div class="row">
             
-            <div class="column" id="chart">
-                <canvas id="myChart" width="auto" height="auto"></canvas>
+            
+            <div class="chartColumn" id="barChart">
+                <canvas id="myBarChart" width="auto" height="auto"></canvas>
             </div>
 
         </div>
