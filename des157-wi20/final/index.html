@@ -6,23 +6,56 @@
     <title>Final Project</title>
     <link rel="stylesheet"  href="styles.css">
 
-
+    <link rel = 'stylesheet' href = 'css/normalize.css'> 
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
 </head>
 <body>
-    <div id="homePage">
-        <h3>THE HISTORY OF</h3>
+    <header id="homePage">
+        <h3>SIX TYPES OF </h3>
         <h1>FAKE NEWS</h1>
-    </div>
+
+        <div class="row">
+        
+                <div class="column">
+                    <h2>Parody</h2>
+                    
+                </div>
+
+                <div class="column">
+                    <h2>Public Relation</h2>
+                    
+                </div>
+                
+                <div class="column">
+                    <h2>Fabrication</h2>
+                   
+                </div>
+    
+                <div class="column">
+                    <h2>Propoganda</h2>
+                    
+                </div>
+
+                <div class="column">
+                    <h2>Photo Manipulation</h2>
+                    
+                </div>
+        
+                <div class="column">
+                    <h2>Satire</h2>
+                    
+                </div>
+    
+            </div>
+        </header>
 
 
-    <div id="timeline">
+    <div id="timeline" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <!-- <div class="line">
             <img src="images/line.png" alt="timeline">
         </div> -->
@@ -33,7 +66,7 @@
     
     <div id="dailyScroll">
         <h1>THE DAILY SCROLL</h1>
-        <h4>How much do you really know about fake news? Scroll through to get educated.</h4>
+        <p>How much do you really know about fake news? Scroll through to get educated.</p>
         
 
         <div class="row">
@@ -42,7 +75,9 @@
                 <canvas id="myDonutChart" width="auto" height="auto"></canvas>
             </div>
 
-            <div class="column">
+            <div class="column" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h2>News Exposure on Social Media</h2>
+                    <p>According to data by the PEW Research Center, news content on social media pages tend to lean on the more liberal side. Does this make it fake? Definitely not! But the more content available, the more opportunities for false information to be present. Be aware and be cautious.</p>
             </div>
         
     
@@ -59,7 +94,7 @@
         <div class="row">
             
             
-            <div class="chartColumn" id="barChart">
+            <div class="chartColumn" id="barChart" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <canvas id="myBarChart" width="auto" height="auto"></canvas>
             </div>
 
@@ -68,17 +103,35 @@
 
 
         <div class="row">
+            
+            <div class="column">
+                <h2 id="questions">Questions<br>To Ask</h2>
+            </div>
+                    
+
         
-            <div class="column">
+            <div class="column" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                <h2>Who created it?</h2>
+                <p>Check your sources - .com or .net sources aren't always the most reliable. Dig around the site and try and find out more about the author and organization. Are there any obvious biases? Are their sources credible?</p>
             </div>
 
-            <div class="column">
+            <div class="column" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h2>What is the message?</h2>
+                    <p>Are you shocked by the headline? Can the same information be found from multiple sources? Is it based in fact or opinion? Does it take a neutral perspective?</p>
             </div>
 
-            <div class="column">
+            <div class="column" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <h2>Why does it exist?</h2>
+                    <p>Is it a sponsored or paid advertisement? Does it intend to put down another group or viewpoint? What is the purpose of the text - to help inform or to harm?</p>
             </div>
     
         </div>
+
+        <div class="column">
+                <div class="column">
+
+                    </div>
+            </div>
 
 
     </div>
@@ -90,6 +143,9 @@
     
     <!-- scroll script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- scroll reveal script -->
     <script src="https://unpkg.com/scrollreveal"></script>

@@ -30,10 +30,10 @@ var chart = new Chart(ctx, {
     options: {
     
         legend: {
-            position: 'top',
+            position: 'left',
             labels: {
                 // This more specific font property overrides the global property
-                fontFamily:'Ubuntu',
+                fontFamily:'Roboto Condensed',
                 boxWidth:12
             }
         }}
@@ -62,12 +62,12 @@ var donutChart = new Chart(ctx, {
     options: {
     
     legend: {
-        position: 'right',
+        position: 'left',
         align: 'start',
 
         labels: {
             // This more specific font property overrides the global property
-            fontFamily:'Ubuntu',
+            fontFamily:'Roboto Condensed',
             boxWidth: 12
 
         }
