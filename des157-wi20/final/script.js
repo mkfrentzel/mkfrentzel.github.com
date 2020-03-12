@@ -77,31 +77,69 @@ var donutChart = new Chart(ctx, {
 
 // Timeline Hover Effects
 
-    var fact1 = document.getElementById('timeline1');
-    var fact2 = document.getElementById('timeline2');
+    var box1 = document.getElementById('timeline1');
+    var box2 = document.getElementById('timeline2');
+    var box3 = document.getElementById('timeline3');
+    var box4 = document.getElementById('timeline4');
+    var box5 = document.getElementById('timeline5');
 
-    var currentImage=0;
-    var myPhotos = ["image1.jpg", "image2.jpg", "image3.jpg", "image14.jpg"];
-    var theImage = document.getElementById('myImage');
+    var fact1 = document.getElementById('1439');
+    var fact2 = document.getElementById('1610');
+    var fact3 = document.getElementById('1890');
+    var fact4 = document.getElementById('1960');
+    var fact5 = document.getElementById('2016');
 
-    fact1.addEventListener("mouseover", function() {
-        currentImage++;
-        theImage.setAttribute("src", slides/image2.jpg)
+    
+//date one
+
+    box1.addEventListener("mouseover", function() {
+        fact1.id="fadein";
     } );
 
-    box.addEventListener("mouseout", function() {
-
-        fact1.classname="fadeout";
-        fact2.classname="fact1fadeOut";
-
+    box1.addEventListener("mouseout", function() {
+        fact1.id="fadout";
     } );
 
-    heading.addEventListener("mouseover", function() {
+//date two
 
-        heading.innerHTML="Roll your mouse over the box";
-
+    box2.addEventListener("mouseover", function() {
+        fact2.id="fadein";
     } );
 
+    box2.addEventListener("mouseout", function() {
+        fact2.id="fadeout";
+    } );
+
+//date three
+
+    box3.addEventListener("mouseover", function() {
+        fact3.id="fadein";
+    } );
+
+    box3.addEventListener("mouseout", function() {
+        fact3.id="fadeout";
+    } );
+
+//date four
+
+    box4.addEventListener("mouseover", function() {
+        fact4.id="fadein";
+    } );
+
+    box4.addEventListener("mouseout", function() {
+        fact4.id="fadeout";
+    } );
+
+//date four
+
+    box5.addEventListener("mouseover", function() {
+        fact5.id="fadein";
+    } );
+
+    box5.addEventListener("mouseout", function() {
+        fact5.id="fadeout";
+    } );
+    
 
 
   

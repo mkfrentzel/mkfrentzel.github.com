@@ -6,7 +6,7 @@
     <title>Final Project</title>
     <link rel="stylesheet"  href="styles.css">
 
-    <link rel = 'stylesheet' href = 'css/normalize.css'> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -16,7 +16,7 @@
 </head>
 <body>
     <header id="homePage">
-        <h3>THE HISTORY OF </h3>
+        <h3>A BRIEF HISTORY OF</h3>
         <h1>FAKE NEWS</h1>
     </header>
 
@@ -24,22 +24,18 @@
         
         <section id="timelineBox">
             
-            <div class="timeline1"><h2>1755</h2><section class="circle"></section><p id="1755">It played a role in catalyzing the Enlightenment, when the Catholic Church’s false explanation of the 1755 Lisbon Earthquake prompted Voltaire to speak out against religious dominance.</p></div>
+            <div id="timeline1"><h2>1439</h2><section class="circle"></section><p id="1439">News - real or fake - has always existed. However, with the development of Gutenberg's printing press in the 15th Century, the virality of news increased significantly for better or worse. While some standardization was introduced in this time, the ability to print subjective news and biased opinions led to the harsh discrimination of certain minority groups - a pattern carried on into the future of all news reporting and that stands to this day.</p></div>
 
-            <div class="timeline2"><h2>1898</h2><section class="circle"></section><p id="1898">In the 1890s, rival newspaper publishers Joseph Pulitzer and William Hearst competed over the audience through sensationalism and reporting rumors as though they were facts, a practice that became known at the time as “yellow journalism.” Their incredulous news played a role in leading the US into the Spanish-American War of 1898.</p></div>
+            <div id="timeline2"><h2>1610</h2><section class="circle"></section><p id="1610">In the late 16th and early 17th Centuries, fake news had already become such a problem people relied on government leaked reports only... soon those became falsified as well. At this point Galileo's trial created a push for scientifically verifiable news and an increase in academic research to be preserved and verified by historians for the public.</p></div>
 
-            <div class="timeline3"><h2>1755</h2><section class="circle"></section><p class="invisibleTypes">It played a role in catalyzing the Enlightenment, when the Catholic Church’s false explanation of the 1755 Lisbon Earthquake prompted Voltaire to speak out against religious dominance.</p></div>
+            <div id="timeline3"><h2>1896</h2><section class="circle"></section><p id="1890">In the 1800's, yellow journalism and the spread of fake news was growing rapidly. Outlandish headlines sold copies, and that's what publications cared about at that time. In an attempt to provide the public with authentic news, Adolph Ochs purchased The New York Times. His goal was to show that news could be real and still make a profit.</p></div>
 
-            <div class="timeline4"><h2>1755</h2><section class="circle"></section><p class="invisibleTypes">It played a role in catalyzing the Enlightenment, when the Catholic Church’s false explanation of the 1755 Lisbon Earthquake prompted Voltaire to speak out against religious dominance.</p></div>
+            <div id="timeline4"><h2>1960</h2><section class="circle"></section><p id="1960">Propoganda was stronger than ever during this period and reporters were being accused of delivering skewed information to the public. The result was a push for reporters to do simply that - report their objective observations and check any biases at the door. The call was for facts to remain facts and for the public to be allowed to form their own opinion with the resources given to them... but did this really happen?</p></div>
+
+            <div id="timeline5"><h2>2016</h2><section class="circle"></section><p id="2016">The digitalization of news has come out full swing and News Publications are feeling the pressure to keep profits up - meaning more advertisements and endorsements. The 2016 Election was a prime example of an overabundance of fake news that clouded the market with information and made it difficult for readers to distinguish between real and fake news. From bots and algorithms to biased advertisements, digitalization is changing the way we get news.</p></div>
         
         </section>
 
-        <div id = "timelinePics">
-
-            <img src="images/image1.jpg" alt="blank" id="myImage">
-            
-
-        </div>
         
                 
     </section>
@@ -56,11 +52,12 @@
     
     <div id="dailyScroll">
         <h1>THE DAILY SCROLL</h1>
-        <p>How much do you really know about fake news? Scroll through to get educated.</p>
+        <p>How much do you really know about the digitalization of fake news? Scroll through to get educated.</p>
         
 
         <div class="row">
             
+           
             <div class="chartColumn" id="donutChart" style="flex-grow: 3">
                 <canvas id="myDonutChart" width="auto" height="auto"></canvas>
             </div>
