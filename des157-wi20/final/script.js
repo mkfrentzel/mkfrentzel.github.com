@@ -83,63 +83,52 @@ var donutChart = new Chart(ctx, {
     var box4 = document.getElementById('timeline4');
     var box5 = document.getElementById('timeline5');
 
-    var fact1 = document.getElementById('1439');
-    var fact2 = document.getElementById('1610');
-    var fact3 = document.getElementById('1890');
-    var fact4 = document.getElementById('1960');
-    var fact5 = document.getElementById('2016');
+    var summary = document.getElementById('changeText');
 
     
 //date one
 
     box1.addEventListener("mouseover", function() {
-        fact1.id="fadein";
+        summary.innerHTML="News - real or fake - has always existed. However, with the development of Gutenberg's printing press in the 15th Century, the virality of news increased significantly for better or worse. While some standardization was introduced in this time, the ability to print subjective news and biased opinions led to the harsh discrimination of certain minority groups - a pattern carried on into the future of all news reporting and that stands to this day.";
+
     } );
 
-    box1.addEventListener("mouseout", function() {
-        fact1.id="fadout";
-    } );
+    
 
 //date two
 
     box2.addEventListener("mouseover", function() {
-        fact2.id="fadein";
+        summary.innerHTML="In the late 16th and early 17th Centuries, fake news had already become such a problem people relied on government leaked reports only... soon those became falsified as well. At this point Galileo's trial created a push for scientifically verifiable news and an increase in academic research to be preserved and verified by historians for the public.";
     } );
 
-    box2.addEventListener("mouseout", function() {
-        fact2.id="fadeout";
-    } );
+    
 
 //date three
 
     box3.addEventListener("mouseover", function() {
-        fact3.id="fadein";
+        summary.innerHTML="In the 1800's, yellow journalism and the spread of fake news was growing rapidly. Outlandish headlines sold copies, and that's what publications cared about at that time. In an attempt to provide the public with authentic news, Adolph Ochs purchased The New York Times. His goal was to show that news could be real and still make a profit.";
     } );
 
-    box3.addEventListener("mouseout", function() {
-        fact3.id="fadeout";
-    } );
+
 
 //date four
 
     box4.addEventListener("mouseover", function() {
-        fact4.id="fadein";
+        summary.innerHTML="Propoganda was stronger than ever during this period and reporters were being accused of delivering skewed information to the public. The result was a push for reporters to do simply that - report their objective observations and check any biases at the door. The call was for facts to remain facts and for the public to be allowed to form their own opinion with the resources given to them... but did this really happen?";
     } );
 
-    box4.addEventListener("mouseout", function() {
-        fact4.id="fadeout";
-    } );
-
-//date four
+  
+//date five
 
     box5.addEventListener("mouseover", function() {
-        fact5.id="fadein";
+        summary.innerHTML="The digitalization of news has come out full swing and News Publications are feeling the pressure to keep profits up - meaning more advertisements and endorsements. The 2016 Election was a prime example of an overabundance of fake news that clouded the market with information and made it difficult for readers to distinguish between real and fake news. From bots and algorithms to biased advertisements, digitalization is changing the way we get news.";
+
     } );
 
-    box5.addEventListener("mouseout", function() {
-        fact5.id="fadeout";
-    } );
     
+    
+
+    summary.style.transition = "all 2s";
 
 
   
