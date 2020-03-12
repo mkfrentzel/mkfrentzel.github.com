@@ -140,9 +140,17 @@ div {
 }
 
 
-.timeline {
+.timeline1, .timeline2, .timeline3, .timeline4 {
     width: 200px;
     margin: 10px;
+}
+
+#timelineBox {
+    width: auto;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 5%;
 }
 
 

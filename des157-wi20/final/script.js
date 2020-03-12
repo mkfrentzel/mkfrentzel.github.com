@@ -75,6 +75,33 @@ var donutChart = new Chart(ctx, {
 
 });
 
+// Timeline Hover Effects
+
+    var fact1 = document.getElementById('timeline1');
+    var fact2 = document.getElementById('timeline2');
+
+    var currentImage=0;
+    var myPhotos = ["image1.jpg", "image2.jpg", "image3.jpg", "image14.jpg"];
+    var theImage = document.getElementById('myImage');
+
+    fact1.addEventListener("mouseover", function() {
+        currentImage++;
+        theImage.setAttribute("src", slides/image2.jpg)
+    } );
+
+    box.addEventListener("mouseout", function() {
+
+        fact1.classname="fadeout";
+        fact2.classname="fact1fadeOut";
+
+    } );
+
+    heading.addEventListener("mouseover", function() {
+
+        heading.innerHTML="Roll your mouse over the box";
+
+    } );
+
 
 
   
