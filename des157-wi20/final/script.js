@@ -83,6 +83,7 @@ var donutChart = new Chart(ctx, {
     var box4 = document.getElementById('timeline4');
     var box5 = document.getElementById('timeline5');
 
+
     var summary = document.getElementById('changeText');
 
     
@@ -125,10 +126,6 @@ var donutChart = new Chart(ctx, {
 
     } );
 
-    
-    
-
-    summary.style.transition = "all 2s";
 
 
   

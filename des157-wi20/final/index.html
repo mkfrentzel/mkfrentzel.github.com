@@ -15,9 +15,9 @@
 
 </head>
 <body>
-    <header id="homePage">
+    <header class="homePage">
         <h3>A BRIEF HISTORY OF</h3>
-        <h1>FAKE NEWS</h1>
+        <h1 class="title">FAKE NEWS</h1>
     </header>
 
     <section>
@@ -36,7 +36,7 @@
         
         </section>
         
-        <section id="textBox"><p id="changeText">Hover over each date to learn some history of fake news.</p></section>
+        <section id="textBox"><p id="changeText">Hover over each date to learn about fake news at that time.</p></section>
 
         
                 
@@ -53,8 +53,10 @@
 
     
     <div id="dailyScroll">
-        <h1>THE DAILY SCROLL</h1>
+        <header class="homePage">
+        <h1 class="title">THE DAILY SCROLL</h1>
         <p>How much do you really know about the digitalization of fake news? Scroll through to get educated.</p>
+        </header>
         
 
         <div class="row">
@@ -72,16 +74,38 @@
     
         </div>
 
-        <div class="row">
-        
-            <div class="column">
-            </div>
-
-        </div>
-
 
         <div class="row">
             
+            <div class="column">
+                <h2 class="questions">Are You More<br>Vulnerable?</h2>
+            </div>
+                    
+
+        
+            <div class="column" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                <h2>Age Matters</h2>
+                <p>It's well known that the younger generation tends to use social media platforms more frequently and with more ease compared to those who came before them. But with more exposure it only becomes more important to stay alert when sifting through news social media sites - targeted ads and propoganda seek out the vulnerable and it's far easier to be swayed into believing something when you've seen it repeatedly or frequently.</p>
+            </div>
+
+            <div class="column" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h2>Digital News vs IRL</h2>
+                    <p>As digitalization has taken over, many print industries have been hit hard and the print publication system as a whole is rapidly declining. While the internet is overflowing with resources, information, and different types of content, it can be a dangerous place. The more information available, the harder it becomes to differentiate what's fact and what's false, especially in computer mediated formats. </p>
+            </div>
+
+            <div class="column" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <h2>Platform Preferences</h2>
+                    <p>The chart below looks at the top seven social platforms used by Americans - the light gray bar represents the total percentage of American users and the blue bar depicts the percentage of Americans who consume news on the site. Which site do you prefer, and do you know their fact-checking policies?</p>
+            </div>
+    
+        </div>
+
+
+        
+
+        <header class="homePage"><h3 class="questions">Trending Now: Digitalization of News</h3></header>
+
+        <div class="row">
             
             <div class="chartColumn" id="barChart" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <canvas id="myBarChart" width="auto" height="auto"></canvas>
@@ -94,7 +118,7 @@
         <div class="row">
             
             <div class="column">
-                <h2 id="questions">Questions<br>To Ask</h2>
+                <h2 class="questions">Questions<br>To Ask</h2>
             </div>
                     
 
@@ -124,6 +148,11 @@
 
 
     </div>
+
+    <footer>
+        <a href="mailto:&#109;&#107;&#102;&#114;&#101;&#110;&#116;&#122;&#101;&#108;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">
+       Email</a><a href="http://validator.w3.org/check?uri=referer">Valid HTML</a><a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
 
     
 
